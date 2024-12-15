@@ -1,0 +1,58 @@
+.container {
+  width: 1200px;
+  margin: 80px auto 0 auto;
+  padding-bottom: 80px;
+  place-items: center;
+}
+
+.titleContainer {
+  width: 100%;
+  text-align: start;
+}
+
+.title {
+  font-size: 78px;
+  color: #f08a01;
+}
+
+.servicesList {
+  list-style: none;
+  width: 100%;
+}
+
+.listItem {
+  color: #000;
+  border: 1px solid #000;
+  font-size: 22px;
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  border-radius: 8px;
+  padding: 6px 12px;
+  width: 100%;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+}
+
+.listItem h2 {
+  margin-bottom: 8px;
+}
+
+.listItem p {
+  margin-bottom: 6px;
+}
+
+.modalButton {
+  margin-top: 10px;
+  padding: 10px 60px;
+  background-color: #0062ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.modalButton:hover {
+  background-color: #00358a;
+}

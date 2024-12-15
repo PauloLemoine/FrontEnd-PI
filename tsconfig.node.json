@@ -18,7 +18,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "ts-node": {
+    "loader": "ts-node/esm",
+    "require": ["tsconfig-paths/register"]
   },
   "include": ["vite.config.ts"]
 }

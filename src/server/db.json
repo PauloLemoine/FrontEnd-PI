@@ -1,0 +1,157 @@
+{
+	"agendamentos": [
+		{
+			"id": 1,
+			"usuarioId": 3,
+			"servicoId": 1,
+			"funcionarioId": 2,
+			"data_hora": "2024-12-18 08:00"
+		},
+		{
+			"id": 2,
+			"usuarioId": 3,
+			"servicoId": 5,
+			"funcionarioId": 1,
+			"data_hora": "2024-12-25 08:00"
+		},
+		{
+			"id": 3,
+			"usuarioId": 3,
+			"servicoId": 3,
+			"funcionarioId": 2,
+			"data_hora": "2024-12-26 08:00"
+		},
+		{
+			"id": 4,
+			"usuarioId": 4,
+			"servicoId": 1,
+			"funcionarioId": 2,
+			"data_hora": "2024-12-18 17:00"
+		},
+		{
+			"id": 5,
+			"usuarioId": 3,
+			"servicoId": 5,
+			"funcionarioId": 2,
+			"data_hora": "2024-12-26 15:00"
+		},
+		{
+			"id": 6,
+			"usuarioId": 5,
+			"servicoId": 3,
+			"funcionarioId": 2,
+			"data_hora": "2024-12-17 17:00"
+		},
+		{
+			"id": 7,
+			"usuarioId": 5,
+			"servicoId": 3,
+			"funcionarioId": 2,
+			"data_hora": "2024-12-17 17:00"
+		}
+	],
+	"funcionarios": [
+		{
+			"id": 1,
+			"cpf": "123.456.789-00",
+			"nome": "João Silva",
+			"cargo_cbo": 100
+		},
+		{
+			"id": 2,
+			"cpf": "987.654.321-00",
+			"nome": "Maria Oliveira",
+			"cargo_cbo": 200
+		}
+	],
+	"servicosHome": [
+		{
+			"id": 1,
+			"nome": "Corte Masculino",
+			"preco": 30,
+			"img_url": "https://img.freepik.com/free-photo/male-getting-his-hair-cut_23-2148256903.jpg?t=st=1734223402~exp=1734227002~hmac=269430954b871b29c8d593d5e8545d735a59d515c5651e8d8e0d04f3f643aac1&w=1380"
+		},
+		{
+			"id": 2,
+			"nome": "Corte Feminino",
+			"preco": 50,
+			"img_url": "https://img.freepik.com/free-photo/woman-hairdresser-salon_144627-8818.jpg?t=st=1734223455~exp=1734227055~hmac=e5626b5591dd537b7ce3ae59d6ac6ecdec6c7c9d66cf31e24b55451221a47b7b&w=1380"
+		},
+		{
+			"id": 3,
+			"nome": "Limpeza de pele",
+			"preco": 100,
+			"img_url": "https://img.freepik.com/free-photo/view-from-rejuvenation-beautiful-woman-enjoying-cosmetology-procedures-beauty-salon-dermatology-hands-blue-glows-healthcare-therapy-botox_197531-2783.jpg?t=st=1734223520~exp=1734227120~hmac=6414c45c197ea3e25172181c7898493d737cb8abf48c7c177eec129634da4fab&w=1380"
+		},
+		{
+			"id": 4,
+			"nome": "Design de Sobrancelha",
+			"preco": 30,
+			"img_url": "https://img.freepik.com/free-photo/woman-going-through-microblading-treatment_23-2149103138.jpg?t=st=1734223607~exp=1734227207~hmac=d78cf0d72a6b800f1ec61f58d9ccb40a2ed296f9b51d15c3776251d8024bed2d&w=1380"
+		},
+		{
+			"id": 5,
+			"nome": "Massagem Relaxante",
+			"preco": 60,
+			"img_url": "https://img.freepik.com/free-photo/woman-spending-time-spa-getting-relaxing-massage_23-2149871869.jpg?t=st=1734223570~exp=1734227170~hmac=0f58d97e7b380afead3d3a41684f2b59c6485c5262da58c969b3061ed9ebdb50&w=1380"
+		}
+	],
+	"servicos": [
+		{
+			"id": 1,
+			"nome": "Corte Masculino",
+			"preco": 30,
+			"img_url": "https://img.freepik.com/free-photo/male-getting-his-hair-cut_23-2148256903.jpg?t=st=1734223402~exp=1734227002~hmac=269430954b871b29c8d593d5e8545d735a59d515c5651e8d8e0d04f3f643aac1&w=1380"
+		},
+		{
+			"id": 2,
+			"nome": "Corte Feminino",
+			"preco": 50,
+			"img_url": "https://img.freepik.com/free-photo/woman-hairdresser-salon_144627-8818.jpg?t=st=1734223455~exp=1734227055~hmac=e5626b5591dd537b7ce3ae59d6ac6ecdec6c7c9d66cf31e24b55451221a47b7b&w=1380"
+		},
+		{
+			"id": 3,
+			"nome": "Limpeza de pele",
+			"preco": 100,
+			"img_url": "https://img.freepik.com/free-photo/view-from-rejuvenation-beautiful-woman-enjoying-cosmetology-procedures-beauty-salon-dermatology-hands-blue-glows-healthcare-therapy-botox_197531-2783.jpg?t=st=1734223520~exp=1734227120~hmac=6414c45c197ea3e25172181c7898493d737cb8abf48c7c177eec129634da4fab&w=1380"
+		},
+		{
+			"id": 4,
+			"nome": "Design de Sobrancelha",
+			"preco": 30,
+			"img_url": "https://img.freepik.com/free-photo/woman-going-through-microblading-treatment_23-2149103138.jpg?t=st=1734223607~exp=1734227207~hmac=d78cf0d72a6b800f1ec61f58d9ccb40a2ed296f9b51d15c3776251d8024bed2d&w=1380"
+		},
+		{
+			"id": 5,
+			"nome": "Massagem Relaxante",
+			"preco": 60,
+			"img_url": "https://img.freepik.com/free-photo/woman-spending-time-spa-getting-relaxing-massage_23-2149871869.jpg?t=st=1734223570~exp=1734227170~hmac=0f58d97e7b380afead3d3a41684f2b59c6485c5262da58c969b3061ed9ebdb50&w=1380"
+		}
+	],
+	"usuarios": [
+		{
+			"id": 2,
+			"cpf": "555.666.777-88",
+			"nome": "Ana Costa",
+			"senha": "Segura2024"
+		},
+		{
+			"id": 3,
+			"nome": "Matheus Calixto",
+			"cpf": "112.471.274-78",
+			"senha": "$2a$08$wM851RSr22AGDvjE9YQyJ.xtywSlXum6khV9RKP.lfJJJ3mADeE1u"
+		},
+		{
+			"id": 4,
+			"nome": "Carlos Santos",
+			"cpf": "111.222.333-44",
+			"senha": "$2a$08$UvRkhsfPbjiPTWmBk/cLy.H2/RAEzAo3yWCIadsE6H4KJbpVCTAsm"
+		},
+		{
+			"id": 5,
+			"nome": "Paulo Lemoine",
+			"cpf": "123.321.123-44",
+			"senha": "$2a$08$vIyo7c3BRVD.H7/g7sGeyuzE9FUqynn87BjqcoVFiwJX9805tmF4S"
+		}
+	]
+}
