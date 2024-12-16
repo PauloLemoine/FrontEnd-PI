@@ -1,50 +1,15 @@
 # React + TypeScript + Vite
+Para o código Funcionar deve-se seguir esses passos:
+1º Abrir o terminal e rodar o "npm install" ou "yarn install"
+2º Rodar o "npm run dev" ou "yarn run dev"
+3° Abrir outro terminal e direcionar para o caminho "cd src/server" e depois "npm install" ou "yarn install" e "npm run dev" ou "yarn dev"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+4º Renomear o arquivo ".env.sample" para ".env" e adiciona os dados sensíveis necessários:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+#PORTA QUE A APLICAÇÃO DEVE RODAR
+VITE_PORT=
+#LOCALHOST OU ENDEREÇO EM PRODUÇÃO
+VITE_BASE_URL= 
+#CHAVE SECRETA PARA A GERAÇÃO DE TOKENS JWT
+VITE_SECRET_KEY=
