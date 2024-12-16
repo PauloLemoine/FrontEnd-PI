@@ -14,7 +14,11 @@
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.7",
+<<<<<<< HEAD
     "json-server": "0.17.4",
+=======
+    "json-server": "1.0.0-beta.3",
+>>>>>>> e0ca9636f25bd22a3c2a566e5da0285b4ced5e78
     "jsonwebtoken": "^9.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
