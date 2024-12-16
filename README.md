@@ -1,1 +1,12 @@
-<pre> <code># 🚀 **Guia de Inicialização - React + TypeScript + Vite** 🛠️ Siga os passos abaixo para rodar a aplicação corretamente: --- ## 📝 **Instalação e Execução** 1. **Instale as dependências principais do projeto:** ```bash npm install ``` ou ```bash yarn install ``` 2. **Inicie o servidor de desenvolvimento:** ```bash npm run dev ``` ou ```bash yarn run dev ``` 3. **Instale e execute o servidor na pasta `src/server`:** Abra um novo terminal e navegue até o diretório `src/server`: ```bash cd src/server ``` Em seguida, instale as dependências do servidor: ```bash npm install ``` ou ```bash yarn install ``` E inicie o servidor: ```bash npm run dev ``` ou ```bash yarn dev ``` --- ## 🔧 **Configuração de Variáveis de Ambiente** Renomeie o arquivo `.env.sample` para `.env` e adicione os dados sensíveis necessários: ```env # Porta onde a aplicação deve rodar VITE_PORT=3000 # URL base (localhost ou produção) VITE_BASE_URL=http://localhost:3000 # Chave secreta para geração de tokens JWT VITE_SECRET_KEY=SuaChaveSecretaAqui ``` --- ✨ **Agora você está pronto para rodar a aplicação!** 🚀 </code> </pre>
+# React + TypeScript + Vite
+Para o código Funcionar deve-se seguir esses passos:
+<br>1º Abrir o terminal e rodar o "npm install" ou "yarn install"
+<br>2º Rodar o "npm run dev" ou "yarn run dev"
+<br>3° Abrir outro terminal e direcionar para o caminho "cd src/server" e depois "npm install" ou "yarn install" e "npm run dev" ou "yarn dev"
+<br>4º Renomear o arquivo ".env.sample" para ".env" e adiciona os dados sensíveis necessários:
+<br>#PORTA QUE A APLICAÇÃO DEVE RODAR
+<br>VITE_PORT=
+<br>#LOCALHOST OU ENDEREÇO EM PRODUÇÃO
+<br>VITE_BASE_URL= 
+<br>#CHAVE SECRETA PARA A GERAÇÃO DE TOKENS JWT
+<br>VITE_SECRET_KEY=
